@@ -18,8 +18,20 @@ This project documents a **real account takeover attack** I experienced on my Pa
 | File | Description |
 |------|-------------|
 | [`01_case_reconstruction.md`](./01_case_reconstruction.md) | Detailed timeline of the ATO event with screenshots |
-| [`02_security_flaws_analysis.md`](./02_security_flaws_analysis.md) | Analysis of where PayPal failed |
+| [`02_security_flaws_analysis.md`](./02_security_flaws_analysis.md) | Analysis of where PayPal failed, including device verification flaws |
 | [`04_defensive_controls.md`](./04_defensive_controls.md) | Recommendations for users and platforms |
+
+---
+
+## 📸 Visual Highlights
+
+A real-world glimpse into how the attacker hijacked and locked me out of my PayPal account:
+
+![Email Added](./images/new_email_added.png)  
+![2FA Enabled](./images/2-step_verification_on_by_attacker.png)  
+![Account Removed](./images/my_account_removed.png)
+
+> Each step was captured and included in the forensic timeline.
 
 ---
 
@@ -30,6 +42,19 @@ This project documents a **real account takeover attack** I experienced on my Pa
 - Authorization vs Authentication Weakness Analysis  
 - Defensive Recommendations for Both Users and Platforms  
 - Technical Writing + Threat Modeling
+
+---
+
+## 📊 Comparative Security Posture
+
+| Platform    | New Device Verification | Default 2FA | Session Challenge After Inactivity |
+|-------------|--------------------------|-------------|------------------------------------|
+| **PayPal**  | ❌ Inconsistent           | ❌ Optional  | ❌ Rarely enforced                  |
+| **Google**  | ✅ Required              | ✅ Strong    | ✅ Enforced                         |
+| **GitHub**  | ✅ Required              | ✅ Strong    | ✅ Enforced                         |
+| **Apple**   | ✅ Required              | ✅ Strong    | ✅ Enforced                         |
+
+> PayPal lags behind other major platforms when it comes to enforcing ownership challenges on new logins or long-dormant accounts.
 
 ---
 
