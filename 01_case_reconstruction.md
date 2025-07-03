@@ -24,9 +24,34 @@ This file contains the full forensic timeline of how my PayPal account was taken
 
 ---
 
+### 🖼️ Visual Evidence (Screenshots)
+
+#### 🔐 Password Changed
+![Password Changed](./images/password_changed.png)
+
+#### 🧪 2FA Enabled by Attacker
+![2FA Enabled](./images/2-step_verification_on_by_attacker.png)
+
+#### 🧩 Attacker Added New Email
+![Email Added](./images/new_email_added.png)
+
+#### ❌ My Account Was Removed
+![Account Removed](./images/my_account_removed.png)
+
+#### 🔄 I Added a Recovery Email
+![Recovery Email Added](./images/added_recovery_email.png)
+
+#### 🚫 Failed Password Change Attempt
+![Change Password Failed](./images/changing_password_failed.png)
+
+#### 🔐 Attacker Added Authenticator to My Email
+![Authenticator to My Email](./images/added_authenticator_to_my_email.png)
+
+---
+
 ### 💡 Important Clues
 
-- My email inbox shows **no login code** requests until *after* changes were made
+- My Gmail inbox shows **no login code** requests until *after* changes were made
 - Gmail account was *not* accessed or compromised
 - All attacker actions occurred within one valid PayPal session
 

@@ -17,9 +17,9 @@ This project documents a **real account takeover attack** I experienced on my Pa
 
 | File | Description |
 |------|-------------|
-| `01_case_reconstruction.md` | Detailed timeline of the ATO event |
-| `02_security_flaws_analysis.md` | Analysis of where PayPal failed |
-| `04_defensive_controls.md` | Recommendations for users and platforms |
+| [`01_case_reconstruction.md`](./01_case_reconstruction.md) | Detailed timeline of the ATO event with screenshots |
+| [`02_security_flaws_analysis.md`](./02_security_flaws_analysis.md) | Analysis of where PayPal failed |
+| [`04_defensive_controls.md`](./04_defensive_controls.md) | Recommendations for users and platforms |
 
 ---
 
