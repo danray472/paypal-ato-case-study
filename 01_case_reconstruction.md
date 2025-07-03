@@ -35,18 +35,16 @@ This file contains the full forensic timeline of how my PayPal account was taken
 #### 🧩 Attacker Added New Email
 ![Email Added](./images/new_email_added.png)
 
-#### ❌ My Account Was Removed
+#### ❌ My Account Was Removed 
 ![Account Removed](./images/my_account_removed.png)
 
-#### 🔄 I Added a Recovery Email
+#### 🔄 I Added a Recovery Email on my google account for recovery just in case
 ![Recovery Email Added](./images/added_recovery_email.png)
 
-#### 🚫 Failed Password Change Attempt
+#### 🚫 Failed Password Change Attempt on my paypal
 ![Change Password Failed](./images/changing_password_failed.png)
 
-#### 🛡️ I Secured My Gmail With Authenticator  
-> 📌 _Note: The screenshot below shows **me** enabling authenticator and 2FA on my Gmail account (linked to PayPal), after the incident — not the attacker._
-
+#### 🔐 Attacker Added Authenticator to My Email
 ![Authenticator to My Email](./images/added_authenticator_to_my_email.png)
 
 ---
