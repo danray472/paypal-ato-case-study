@@ -44,21 +44,23 @@ This file contains the full forensic timeline of how my PayPal account was taken
 #### 🚫 Failed Password Change Attempt
 ![Change Password Failed](./images/changing_password_failed.png)
 
-#### 🔐 Attacker Added Authenticator to My Email
+#### 🛡️ I Secured My Gmail With Authenticator  
+> 📌 _Note: The screenshot below shows **me** enabling authenticator and 2FA on my Gmail account (linked to PayPal), after the incident — not the attacker._
+
 ![Authenticator to My Email](./images/added_authenticator_to_my_email.png)
 
 ---
 
 ### 💡 Important Clues
 
-- My Gmail inbox shows **no login code** requests until *after* changes were made
-- Gmail account was *not* accessed or compromised
+- My Gmail inbox shows **no login code** requests until *after* changes were made  
+- Gmail account was *not* accessed or compromised  
 - All attacker actions occurred within one valid PayPal session
 
 ---
 
 ### 🧠 Lessons from Timeline
 
-- Attackers often act within minutes of logging in
-- Having access to login is enough to escalate unless platforms challenge critical actions
+- Attackers often act within minutes of logging in  
+- Having access to login is enough to escalate unless platforms challenge critical actions  
 - The absence of real-time alerts or confirmation flows weakens even large platforms like PayPal
